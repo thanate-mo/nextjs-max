@@ -11,7 +11,7 @@ async function handler(req, res) {
     !message ||
     message.trim() === ""
   ) {
-    res.status(422).json({ message: "Invalid input." })
+    res.status(422).json({ message: "Invalid input!." })
     return
   }
   // Store it in a database
